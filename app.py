@@ -26,7 +26,7 @@ def preprocess_input(input_data):
 # Define a route for the "Welcome" message
 @app.route('/')
 def hello_world():
-    return 'Welcome at dyslexia.pythonanywhere.com'
+    return 'Welcome at dyslexia predict'
 
 # Define a route for making predictions
 @app.route('/predict', methods=['POST'])
